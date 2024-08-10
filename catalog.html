@@ -17,15 +17,17 @@
     <header class="header-main">
         <div class="container">
             <div class="header-main__wrapper">
-                <a class="header-main__logo-link" href="#"><img class="header-main__logo-image"
-                        src="./images/nerds-logo.png" alt="Логотип сайта." width="160px" height="65px"></a>
+                <a class="header-main__logo-link" href="http://127.0.0.1:5501/index.html"><img
+                        class="header-main__logo-image" src="./images/nerds-logo.png" alt="Логотип сайта." width="160px"
+                        height="65px"></a>
                 <nav class="header-main__navigation">
                     <ul class="header-main__list">
-                        <li class="header-main__list-item page-located"><a class="header-main__list-link"
-                                href="#">Студия</a></li>
+                        <li class="header-main__list-item "><a class="header-main__list-link"
+                                href="http://127.0.0.1:5501/index.html">Студия</a></li>
                         <li class="header-main__list-item"><a class="header-main__list-link" href="#">Клиенты</a>
                         </li>
-                        <li class="header-main__list-item"><a class="header-main__list-link" href="#">Магазин</a>
+                        <li class="header-main__list-item page-located"><a class="header-main__list-link"
+                                href="http://127.0.0.1:5501/catalog.html">Магазин</a>
                         </li>
                         <li class="header-main__list-item"><a class="header-main__list-link" href="#">Контакты</a></li>
                     </ul>
@@ -40,28 +42,28 @@
             <h2 class="visually-hidden">Каталог товаров</h2>
             <div class="container flex">
                 <div class="price-catalog__menu">
-                    <div class="price-catalog__option">
-                        <div class="price-catalog__option-money">
-                            <p class="price-catalog__option-money-title form-title">Стоимость:</p>
-                            <div class="price-catalog__option-money-range">
-                                <div class="price-catalog__option-money-range-area"></div>
-                            </div>
-                        </div>
-                        <form class="price-catalog__option-money-forms" action="" method="get">
-                            <p class="price-catalog__option-money-block">
-                                <label class="price-catalog__option-money-label" for="numbers-min">От</label>
-                                <input class="price-catalog__option-money-input" type="number" name="numbers-min"
-                                    id="numbers-min" placeholder="0">
-                            </p>
-                            <p class="price-catalog__option-money-block">
-                                <label class="price-catalog__option-money-label" for="numbers-max">До</label>
-                                <input class="price-catalog__option-money-input" type="number" name="numbers-max"
-                                    id="numbers-max" placeholder="0">
-                            </p>
-                        </form>
-                    </div>
                     <div class="sorting">
                         <form class="sorting__forms" action="" method="get">
+                            <fieldset class="sorting__cost">
+                                <div class="sorting__option-money">
+                                    <p class="sorting__option-money-title form-title">Стоимость:</p>
+                                    <div class="sorting__option-money-range">
+                                        <div class="sorting__option-money-range-area"></div>
+                                    </div>
+                                </div>
+                                <div class="sorting__money-cost-area">
+                                    <p class="sorting__option-money-block">
+                                        <label class="sorting__option-money-label" for="numbers-min">От</label>
+                                        <input class="sorting__option-money-input" type="number" name="numbers-min"
+                                            id="numbers-min" placeholder="0">
+                                    </p>
+                                    <p class="sorting__option-money-block">
+                                        <label class="sorting__option-money-label" for="numbers-max">До</label>
+                                        <input class="sorting__option-money-input" type="number" name="numbers-max"
+                                            id="numbers-max" placeholder="0">
+                                    </p>
+                                </div>
+                            </fieldset>
                             <fieldset class="sorting__fieldset">
                                 <legend class="sorting__title form-title">Сетка:</legend>
                                 <p class="sorting__radiobutton">
@@ -156,6 +158,11 @@
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-2.jpg"
                                     alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
@@ -163,6 +170,11 @@
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-3.jpg"
                                     alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
@@ -170,6 +182,11 @@
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-4.jpg"
                                     alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
@@ -177,6 +194,11 @@
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-5.jpg"
                                     alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
@@ -184,27 +206,42 @@
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-6.jpg"
                                     alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                     </ul>
-                    <ul class="price-catalog__pagination">
-                        <li class="price-catalog__pagination_item active-pagination">
-                            <a class="price-catalog__pagination_item-link" href="#">1</a>
+                    <ol class="price-catalog__pagination">
+                        <li class="price-catalog__pagination-item active-pagination">
+                            <a class="price-catalog__pagination-item-link" href="#">1</a>
                         </li>
-                        <li class="price-catalog__pagination_item">
-                            <a class="price-catalog__pagination_item-link" href="#">2</a>
+                        <li class="price-catalog__pagination-item">
+                            <a class="price-catalog__pagination-item-link" href="#">2</a>
                         </li>
-                        <li class="price-catalog__pagination_item">
-                            <a class="price-catalog__pagination_item-link" href="#">3</a>
+                        <li class="price-catalog__pagination-item">
+                            <a class="price-catalog__pagination-item-link" href="#">3</a>
                         </li>
-                        <li class="price-catalog__pagination_item">
-                            <a class="price-catalog__pagination_item-link-next" href="#">Следующая</a>
+                        <li class="price-catalog__pagination-item">
+                            <a class="price-catalog__pagination-item-link-next" href="#">Следующая</a>
                         </li>
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </section>
         <section class="locations">
             <h2 class="visually-hidden">Карта с местонахождением</h2>
+            <div class="container">
+                <div class="contacts__information">
+                    <h2 class="contacts__information-title">NЁRDS DESIGN STUDIO</h2>
+                    <address class="contacts__information-address">
+                        191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    </address>
+                    <a class="contacts__information-tel" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+                    <a class="contacts__information-mail" href="#">Напишите нам</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer-main">
