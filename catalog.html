@@ -65,47 +65,53 @@
                             <fieldset class="sorting__fieldset">
                                 <legend class="sorting__title form-title">Сетка:</legend>
                                 <p class="sorting__radiobutton">
-                                    <input class="sorting__radiobutton-input" type="radio" id="adaptivity"
-                                        name="radiobutton" value="adaptivity" checked />
-                                    <label class="sorting__radiobutton-label" for="adaptivity">Адаптивная</label>
+                                    <label class="sorting__radiobutton-label" for="adaptivity"> <input
+                                            class="sorting__radiobutton-input" type="radio" id="adaptivity"
+                                            name="radiobutton" value="adaptivity"
+                                            checked /><span>Адаптивная</span></label>
                                 </p>
                                 <p class="sorting__radiobutton">
-                                    <input class="sorting__radiobutton-input" type="radio" id="fixed" name="radiobutton"
-                                        value="fixed" />
-                                    <label class="sorting__radiobutton-label" for="fixed">Фиксированная</label>
+                                    <label class="sorting__radiobutton-label" for="fixed"> <input
+                                            class="sorting__radiobutton-input" type="radio" id="fixed"
+                                            name="radiobutton" value="fixed" /><span>Фиксированная</span></label>
                                 </p>
                                 <p class="sorting__radiobutton">
-                                    <input class="sorting__radiobutton-input" type="radio" id="rubber"
-                                        name="radiobutton" value="rubber" />
-                                    <label class="sorting__radiobutton-label" for="rubber">Резинновая</label>
+                                    <label class="sorting__radiobutton-label" for="rubber"> <input
+                                            class="sorting__radiobutton-input" type="radio" id="rubber"
+                                            name="radiobutton" value="rubber" /><span>Резинновая</span></label>
                                 </p>
                             </fieldset>
                             <fieldset class="sorting__checkbox">
                                 <legend class="sorting__checkbox-title form-title">Особенности:</legend>
                                 <p class="sorting__checkbox-button">
-                                    <input class="sorting__checkbox-input" type="checkbox" id="slider" name="checkbox"
-                                        value="slider" checked />
-                                    <label class="sorting__checkbox-label" for="slider">Слайдер</label>
+
+                                    <label class="sorting__checkbox-label" for="slider"> <input
+                                            class="sorting__checkbox-input" type="checkbox" id="slider" name="checkbox"
+                                            value="slider" checked /><span>Слайдер</span></label>
                                 </p>
                                 <p class="sorting__checkbox-button">
-                                    <input class="sorting__checkbox-input" type="checkbox" id="block" name="checkbox"
-                                        value="block" />
-                                    <label class="sorting__checkbox-label" for="block">Блок преимуществ</label>
+
+                                    <label class="sorting__checkbox-label" for="block"><input
+                                            class="sorting__checkbox-input" type="checkbox" id="block" name="checkbox"
+                                            value="block" /><span>Блок преимуществ</span></label>
                                 </p>
                                 <p class="sorting__checkbox-button">
-                                    <input class="sorting__checkbox-input" type="checkbox" id="news" name="checkbox"
-                                        value="news" checked />
-                                    <label class="sorting__checkbox-label" for="news">Новости</label>
+
+                                    <label class="sorting__checkbox-label" for="news"> <input
+                                            class="sorting__checkbox-input" type="checkbox" id="news" name="checkbox"
+                                            value="news" checked /><span>Новости</span></label>
                                 </p>
                                 <p class="sorting__checkbox-button">
-                                    <input class="sorting__checkbox-input" type="checkbox" id="gallery" name="checkbox"
-                                        value="gallery" />
-                                    <label class="sorting__checkbox-label" for="gallery">Галерея</label>
+
+                                    <label class="sorting__checkbox-label" for="gallery"><input
+                                            class="sorting__checkbox-input" type="checkbox" id="gallery" name="checkbox"
+                                            value="gallery" /><span>Галерея</span></label>
                                 </p>
                                 <p class="sorting__checkbox-button">
-                                    <input class="sorting__checkbox-input" type="checkbox" id="cart" name="checkbox"
-                                        value="cart" />
-                                    <label class="sorting__checkbox-label" for="cart">Корзина</label>
+
+                                    <label class="sorting__checkbox-label" for="cart"><input
+                                            class="sorting__checkbox-input" type="checkbox" id="cart" name="checkbox"
+                                            value="cart" /><span>Корзина</span></label>
                                 </p>
                             </fieldset>
                             <button class="sorting__button" id="sorting__submit-button" type="submit">Показать</button>
@@ -124,53 +130,59 @@
                                     названию</a></li>
                         </ul>
                         <div class="cards__header-sorting">
-                            <button type="button" class="header-sorting__up"><span
-                                    class="visually-hidden"></span></button>
-                            <button type="button" class="header-sorting__down"><span
-                                    class="visually-hidden"></span></button>
+                            <button type="button" class="header-sorting__up"><span class="visually-hidden">Кнопка
+                                    сортировки верх</span></button>
+                            <button type="button" class="header-sorting__down active__sorting_button"><span
+                                    class="visually-hidden">Кнопка
+                                    сортировки вниз</span></button>
                         </div>
                     </div>
                     <ul class="price-catalog-list">
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"></div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-1.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
+                            <div class="price-catalog-list__info">
+                                <h3 class="price-catalog__info-title">SEDONA</h3>
+                                <p class="price-catalog__info-description">Информационный сайт для туристов</p>
+                                <a class="price-catalog__cost" href="#">9 900 ₽</a>
+                            </div>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"></div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-2.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"> </div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-3.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"> </div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-4.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"> </div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-5.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
                         </li>
                         <li class="price-catalog-list__item">
                             <a class="price-catalog-list__item-link" href="#">
-                                <div class="price-catalog-list__item-pagination"> </div>
+
                                 <img class="price-catalog-list__item-link-image" src="./images/catalog-price-6.jpg"
-                                    alt="Шаблон сайта." width="358px" height="578px">
+                                    alt="Шаблон сайта." width="358" height="578">
                             </a>
                         </li>
                     </ul>
