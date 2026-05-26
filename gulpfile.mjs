@@ -7,6 +7,8 @@ import terser from "gulp-terser";
 import sourcemaps from "gulp-sourcemaps";
 import browserSync from "browser-sync";
 
+console.log("🚀 Gulp запущен успешно!");
+
 const sass = gulpSass(dartSass);
 const server = browserSync.create();
 

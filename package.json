@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "php -S localhost:8080 -t public",
     "gulp": "gulp",
-    "dev": "npm run server & npm run gulp",
+    "bat": "dev.bat",
+    "dev": "concurrently --kill-others --names \"PHP,GULP\" --prefix-colors \"blue,green\" \"npm run server\" \"npm run gulp\"",
     "build": "gulp styles scripts --gulpfile gulpfile.mjs"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/Girey-m/nerds-girey#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
     "gulp": "^5.0.1",
     "gulp-autoprefixer": "^10.0.0",
     "gulp-clean-css": "^4.3.0",

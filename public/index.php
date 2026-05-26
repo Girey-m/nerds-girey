@@ -1,6 +1,4 @@
-<?php
-$pageTitle = "RentHouse - Главная";
-?>
+<?php $pageTitle = "RentHouse — Сдача и аренда жилья"; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,12 +8,19 @@ $pageTitle = "RentHouse - Главная";
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <h1>✅ Проект работает!</h1>
-    <p>Это тестовая страница. Gulp + Apache + PHP.</p>
-    
-    <style>
-        body { font-family: Arial, sans-serif; padding: 50px; background: #f0f0f0; }
-        h1 { color: #2e7d32; }
-    </style>
+    <header>
+        <div class="container">
+            <h2>RentHouse</h2>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Найди своё идеальное жильё</h1>
+            <p>Сдача и аренда квартир, домов и комнат по всей России</p>
+        </div>
+    </section>
+
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>
