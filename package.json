@@ -4,7 +4,11 @@
   "description": "Я ОХУЕННЫЙ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "php -S localhost:8080 -t public",
+    "gulp": "gulp",
+    "dev": "npm run server & npm run gulp",
+    "build": "gulp styles scripts --gulpfile gulpfile.mjs"
   },
   "repository": {
     "type": "git",

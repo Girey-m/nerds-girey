@@ -1,5 +1,2 @@
-console.log("✅ Gulp + JS работает");
-
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Страница загружена через Gulp сборку");
-});
+console.log("✅ Gulp + JS работает"),document.addEventListener("DOMContentLoaded",()=>{console.log("Страница загружена через Gulp сборку")});
+//# sourceMappingURL=app.js.map

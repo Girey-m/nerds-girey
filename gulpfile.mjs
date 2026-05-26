@@ -44,7 +44,7 @@ export function scripts() {
 // BrowserSync
 export function serve() {
   server.init({
-    proxy: "http://localhost/nerds-girey", // ← Важно! Укажи точное имя папки
+    proxy: "http://localhost:8080", // ← важно! Проксируем на PHP-сервер
     notify: false,
     open: true,
     port: 3000,
